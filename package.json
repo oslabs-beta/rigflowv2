@@ -1,0 +1,38 @@
+{
+  "name": "snowpack-react-tailwind",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mrkldshv/snowpack-react-tailwind.git"
+  },
+  "keywords": [
+    "csa-template",
+    "snowpack",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "Mark Ladyshau <markladyshev@gmail.com>",
+  "scripts": {
+    "prepare": "snowpack",
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-react": "^1.1.4",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/react": "^10.0.3",
+    "jest": "^25.4.0",
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.1",
+    "prettier": "^2.0.0",
+    "snowpack": "^2.2.0"
+  }
+}
